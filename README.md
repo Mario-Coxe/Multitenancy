@@ -1,14 +1,7 @@
 # Multitenancy
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
 
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-
-
-1. [Opção 1](#opcao1)
+# COMO FAZER!!
+1. [inserir os valores nas colunas da tabela pelo terminal](#opcao1)
 2. [Opção 2](#opcao2)
 3. [Opção 3](#opcao3)
 4. [Opção 4](#opcao4)
@@ -16,38 +9,47 @@ Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente 
 ...
 
 <a name="opcao1"></a>
-## Opção 1
+## inserir os valores nas colunas da tabela pelo terminal
 
-Aqui está a explicação para a Opção 1.
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
+1. Abra o terminal no diretório raiz do seu projeto Laravel.
+2. Inicie o Tinker executando o seguinte comando:
+```sh
+php artisan tinker
+   ```
+3. Crie uma nova instância do modelo
+```sh
+$user = new \App\Models\User;
+$user->id = '1'; 
+$user->name = 'Nome do Usuário';
+$user->password = 'senha';
+$user->phone = 'phone';
+
+```
+4. Salve a instância do modelo no banco de dados usando o método 'save()' :
+```sh
+$user->save();
+```
 
 
 <a name="opcao2"></a>
 ## Opção 2
 
 Aqui está a explicação para a Opção 2.
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
+
 
 
 <a name="opcao3"></a>
 ## Opção 3
 
 Aqui está a explicação para a Opção 3.
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
+
 
 
 <a name="opcao4"></a>
 ## Opção 4
 
 Aqui está a explicação para a Opção 4.
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
-Multitenancy, aqui eu irei coloca coisas que funções especies que normalmente as pessoas possam esquecer com facilidade, caso esquecer, aqui encontrá a resposta de tudo!!
+
 
 
 
