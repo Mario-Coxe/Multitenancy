@@ -2,7 +2,7 @@
 
 # COMO FAZER!!
 1. [inserir os valores nas colunas da tabela pelo terminal](#opcao1)
-2. [Opção 2](#opcao2)
+2. [Criando uma Resource](#opcao2)
 3. [Opção 3](#opcao3)
 4. [Opção 4](#opcao4)
 
@@ -32,9 +32,12 @@ $user->save();
 
 
 <a name="opcao2"></a>
-## Opção 2
+## Criando uma Resource
 
-Aqui está a explicação para a Opção 2.
+```sh
+php artisan make:filament-resource NameResource
+
+```
 
 
 
